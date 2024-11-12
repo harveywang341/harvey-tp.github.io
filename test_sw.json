@@ -1,0 +1,26 @@
+[
+    {
+        "package": "kustomize",
+        "type": "binary",
+        "url": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv4.5.4/kustomize_v4.5.4_darwin_amd64.tar.gz",
+        "version": "v4.5.4"
+    },
+  {
+        "package": "ece-agent-0.5.0.0-e73f091b-27_amd64.deb",
+        "type": "binary",
+        "url": "uploaded",
+        "version": "0.5.0.0"
+    },
+	{
+        "package": "nginx",
+        "type": "image",
+        "url": "public.ecr.aws/nginx/nginx:alpine3.20-slim",
+        "tag": "alpine3.20-slim"
+    },
+	{
+        "package": "busybox",
+        "type": "image",
+        "url": "public.ecr.aws/docker/library/busybox@sha256:857589801ccdbf62924a53b5430a4dde3b9d0d2f3489285bc55a972059245d80",
+        "digest": "857589801ccdbf62924a53b5430a4dde3b9d0d2f3489285bc55a972059245d80"
+    }
+]
